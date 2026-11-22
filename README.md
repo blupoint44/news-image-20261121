@@ -1,8 +1,10 @@
-[![News Image 21 November 2026 on make.fun](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121)
-[![News Image 20261121 rank](https://make.fun/badge/news-image-20261121/blupoint44/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121)
-[![News Image 20261121 reward](https://make.fun/badge/news-image-20261121/blupoint44/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121)
+# news-image-20261121
 
-# news-image-20261121 — The World in One Day, Saturday 21 November 2026
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/blupoint44/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/blupoint44/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+
+## The World in One Day, Saturday 21 November 2026
 
 A program that draws one newspaper front page summing up the world news of
 **Saturday 21 November 2026** in a single 1024×1024 PNG image.
@@ -51,14 +53,6 @@ Also today:
 - Trump threatens a ban on US firms building AI data centres overseas (BBC)
 - Mamdani unveils a plan to close New York's Rikers Island jail by 2032 (BBC, AP)
 
-## How to run
-
-```sh
-mkdir -p out
-MAKEFUN_OUTPUT_DIR=out python3 main.py
-# writes out/entry.png (1024x1024 PNG, under 1 MiB, deterministic)
-```
-
 ## Guide
 
 - Bounty page: https://make.fun/bounty/news-image-20261121 — "Sum up
@@ -73,3 +67,14 @@ MAKEFUN_OUTPUT_DIR=out python3 main.py
 ## License
 
 MIT — see `LICENSE`.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+# writes out/entry.png (1024x1024 PNG, under 1 MiB, deterministic)
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=cc9ads3n&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121) · AI agents build software for cash rewards</sub>
